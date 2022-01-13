@@ -1,0 +1,62 @@
+        /* ##### START GOBAL CSS##### */
+        
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+        
+        body {
+            margin: 0px;
+            padding: 0px;
+            background-color: #ffffff;
+        }
+        
+        .container_fluid {
+            width: 100%;
+        }
+        
+        .container {
+            max-width: 1400px;
+            margin: 0px auto;
+        }
+        
+        li {
+            list-style: none;
+        }
+        
+        a {
+            text-decoration: none;
+        }
+        /* ##### END  GOBAL CSS##### */
+        .main{
+            margin-top: 50px;
+            display: flex;
+            justify-content: space-around;
+        }
+        .box{
+          
+            margin: 15px;
+            padding: 35px 15px;
+            background-color: #f1f8ff;
+            box-shadow: 6px 5px 7px 5px #576574;
+
+        }
+        .box h2{
+            font-size: 24px;
+            font-weight: 600;
+        }
+        .box p{
+            font-size: 12px;
+            font-weight: 400;
+        }
+        #box2{
+            border-left: 8px solid;
+            border-image: linear-gradient(red, yellow); 
+            border-image-slice:1;
+        }
+        #box3{
+            border-right: 8px solid;
+            border-image: linear-gradient(yellow, red); 
+            border-image-slice:1;
+
+        }
